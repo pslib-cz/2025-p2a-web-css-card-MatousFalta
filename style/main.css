@@ -66,6 +66,7 @@
         padding: 1em 2em;
         border-radius: 10px;
         margin-top: 2em;
+        border: solid 0.5px transparent;
     }
     .card-footer-bold{
         color: var(--primary);
@@ -81,5 +82,14 @@
     }
     .card__feature-item-cross{
         list-style-image: url(../images/cross.svg);
+    }
+    .card-body-button:hover{
+        background-color: white;
+        color: var(--primary);
+        border: solid 0.5px gray;
+    }
+    .card-body-link:hover{
+        text-decoration: none;
+        color: darkslateblue;
     }
 }
